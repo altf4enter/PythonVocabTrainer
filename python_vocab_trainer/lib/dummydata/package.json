@@ -1,0 +1,24 @@
+{"packages":[{
+    "name": "dummy-package",
+    "id":"ABC",
+    "functions": [
+        {
+        "name": "add",
+        "parameters":[
+            {"name": "a",
+            "description": ""},
+            {"name": "b",
+            "description":""}],
+        "description": "Adds two numbers together"
+        }
+    ],
+    "classes": [
+        {"name":"Object",
+        "description":"Is an object.",
+    "functions":[
+        {"name":"call",
+        "parameters":[],
+        "description":"calls the function"}
+    ]}
+    ]
+}]}
