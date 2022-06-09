@@ -1,0 +1,29 @@
+{"packages":[{
+    "name": "dummy-package",
+    "id":"ABC",
+    "functions": [
+        {
+        "name": "add",
+        "id":"CDF",
+        "parameters":[
+            {"name": "a",
+            "id":"WOE",
+            "description": "The first summand."},
+            {"name": "b",
+                "id":"DPFE",
+            "description":"The second summand."}],
+        "description": "Adds two numbers together"
+        }
+    ],
+    "classes": [
+        {"name":"Object",
+        "description":"Is an object.",
+        "id":"ALS",
+        "functions":[
+            {"name":"call",
+            "id":"SDED",
+            "parameters":[],
+            "description":"calls the function"}
+        ]}
+    ]
+}]}

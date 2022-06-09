@@ -1,17 +1,27 @@
-class Parameter {
-  String name = "";
-  String description = "";
+
+
+import 'package:python_vocab_trainer/model/flash_card_element.dart';
+
+class Parameter extends FlashcardElement {
   String type = "";
 
-  Parameter.fromJSON(json){
-    name = json["name"];
-    description = json["description"] ?? "";
+  Parameter.fromJSON(json):super.fromJSON(json){
     type = json["type"] ?? "";
   }
 
-  Parameter.noParameter(){
+  Parameter.noParameter():super.fromJSON({"id":"","name":""}){
     name = "";
     description = "";
     type="";
+  }
+
+  Map<dynamic,dynamic> toJSON(){
+    var json = super.toJSON();
+    json["type"] = type;
+    return json;
+  }
+
+  bool equals(String name2){
+    return name.trim()==name2.trim()? true:false;
   }
 }

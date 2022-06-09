@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "python_vocab_trainer",
+            "cwd": "python_vocab_trainer",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "python_vocab_trainer (profile mode)",
+            "cwd": "python_vocab_trainer",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "python_vocab_trainer (release mode)",
+            "cwd": "python_vocab_trainer",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
